@@ -162,7 +162,6 @@ class BusinessesViewController: UIViewController, UITableViewDataSource, UITable
         if searchBar.text?.range(of:defaultSearchTerm) == nil {
             searchTerm.append(" \(defaultSearchTerm)")
         }
-        print("new search")
         
         // Refresh results
         doSearch(filters: filters)

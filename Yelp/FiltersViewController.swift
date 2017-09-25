@@ -106,23 +106,6 @@ class FiltersViewController: UIViewController, UITableViewDataSource, UITableVie
         return 0
     }
     
-/*
-    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        switch section {
-        case 0: // Includes "Offering a Deal"
-            return "Most Popular"
-        case 1:
-            return "Distance"
-        case 3:
-            return "Sort By"
-        case 5:
-            return "Category"
-        default:
-            return ""
-        }
-    }
-    */
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         switch indexPath.section {
