@@ -48,7 +48,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Had issues with implementing the data sectioning and presentation on the filters page.  Didn't have enough time to work on all the optionals, and get everything squared out.
 
 ## License
 
